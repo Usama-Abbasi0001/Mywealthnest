@@ -18,7 +18,7 @@ import Mobile from '../../components/ToNews/Mobile'
 import MobText from '../../components/ToNews/MobText'
 import Footer from '../../components/ToNews/Footer'
 import CopyRight from '../../components/ToNews/CopyRight'
-import Chatbot from '../../components/ChatBoot/ChatBot';
+import ChatBot from '../../components/ChatBoot/ChatBot';
 function FeatureComp() {
   return (
     <div>
@@ -96,7 +96,7 @@ function FeatureComp() {
        <Footer/>
         </div>
         <CopyRight/>
-        <Chatbot/>
+        <ChatBot/>
         </div>
         </div>
   )
