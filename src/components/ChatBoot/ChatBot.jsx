@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import {  Paper} from '../Utils/Icons';
-import chatbot from '../images/chatbot.jpg';
+import ChatBot from '../images/chatbot.jpg';
 function Chatbot() {
     const [isOpen, setIsOpen] = useState(false);
     const [messages, setMessages] = useState([]);
@@ -40,7 +40,7 @@ function Chatbot() {
       {isOpen && (
         <div className="bg-white w-80 h-96 rounded-lg shadow-xl mt-2 flex flex-col overflow-hidden">
           <div className="bg-teal-500 ps-3 text-white text-center py-2  flex items-center space-x-4">
-            <div><img src={chatbot} alt="" className='w-[50px] rounded-[50px]' /></div>
+            <div><img src={ChatBot} alt="" className='w-[50px] rounded-[50px]' /></div>
           <div>
           <p className='font-bold'>Hello! How can I help?</p>
           <div className='flex items-center space-x-2'>
